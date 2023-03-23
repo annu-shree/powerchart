@@ -8,7 +8,7 @@ export default defineConfig({
   build: {
     rollupOptions: {
       external: [
-        'chart.js/auto'
+        '/chart.js/auto'
       ]
     }
   }
